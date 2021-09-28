@@ -69,7 +69,7 @@ body {
 }
 
 .second-section-text {
-  margin: auto auto auto 20%;
+  margin: auto auto auto 15%;
   width: 50%;
   font-size: 20px;
   line-height: 180%;
@@ -92,7 +92,7 @@ body {
 }
 
 .third-section-text {
-  margin: auto 10% 0px auto;
+  margin: auto 15% 0px auto;
   width: 30%;
   font-size: 20px;
   line-height: 180%;
@@ -111,7 +111,7 @@ body {
   height: 80%;
   margin: auto 0px;
   position: relative;
-  left: -7%;
+  left: -10%;
 }
 
 .fourth-image-2 {
@@ -128,7 +128,7 @@ body {
 }
 
 .fifth-section-text {
-  margin: auto auto auto 20%;
+  margin: auto auto auto 15%;
   width: 40%;
   font-size: 20px;
   line-height: 180%;
@@ -146,7 +146,7 @@ body {
   margin-left: auto;
   bottom: 25%;
   position: relative;
-  left: 18%;
+  left: 15%;
   height: 90%;
 }
 
@@ -164,7 +164,7 @@ body {
 }
 
 .seventh-section-text {
-  margin: auto 10% 0px auto;
+  margin: auto 15% 0px auto;
   width: 30%;
   font-size: 20px;
   line-height: 180%;
@@ -247,5 +247,193 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1156px) {
+  .header-content {
+    padding: 0px 35px;
+  }
+
+  .first-section {
+    margin: 0px 35px;
+  }
+
+  .second-section {
+    height: auto;
+  }
+
+  .second-image {
+    left: 17%;
+  }
+
+  .second-section-text {
+    margin: auto auto auto 7%;
+  }
+
+  .third-section {
+    margin-top: 100px;
+    padding-left: 5%;
+  }
+
+  .third-section-text {
+    margin: auto 5% auto auto;
+  }
+
+  .fourth-section {
+    width: 95%;
+  }
+
+  .fourth-image-1 {
+    left: -3%;
+    width: 70%;
+  }
+
+  .fourth-image-2 {
+    height: 75%;
+    margin: auto 2%;
+  }
+
+  .sixth-section {
+    width: 95%;
+  }
+
+  .sixth-image-2 {
+    left: 5%;
+    height: 80%;
+  }
+
+  .sixth-image-1 {
+    left: 2%;
+    height: 80%;
+  }
+
+  .footer-right-section-text {
+    margin: 15% auto auto auto;
+  }
+}
+
+@media screen and (max-width: 815px) {
+
+  .app-logo {
+    padding: 5%;
+    position: inherit;
+  }
+
+  .app-subtitle {
+    padding: 5%;
+    font-size: 24px;
+  }
+
+  .header-content {
+    padding: 0px 30px;
+  }
+
+  .first-section {
+    margin: 0px 30px;
+  }
+
+  .second-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .second-section-text {
+    margin: 10% 15%;
+    width: auto;
+  }
+
+  .second-image {
+    margin: 5%;
+    position: inherit;
+    left: 0%;
+    top: 0%;
+    object-fit: inherit;
+  }
+
+  .third-section {
+    padding-left: 0%;
+    flex-direction: column;
+  }
+
+  .third-image {
+    position: inherit;
+    margin: 5%;
+  }
+
+  .third-section-text {
+    margin: 10% 15%;
+    width: auto;
+  }
+
+  .fourth-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fourth-image-1 {
+    left: 0%;
+    margin: auto auto;
+    top: -10%;
+  }
+
+  .fourth-image-2 {
+    width: 70%;
+    margin: auto auto;
+    top: 5%;
+  }
+
+  .fifth-section {
+    margin-top: 285px;
+    width: 100%;
+  }
+
+  .fifth-section-text {
+    margin: 10% 15%;
+    width: 100%;
+  }
+
+  .sixth-section {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 125px;
+  }
+
+  .sixth-image-2 {
+    left: 0%;
+    top: 0%;
+    margin: 5% auto;
+    width: 85%;
+  }
+
+  .sixth-image-1 {
+    left: 0%;
+    margin: 5% auto;
+    width: 85%;
+    bottom: 0%;
+  }
+
+  .seventh-section {
+    margin-top: 450px;
+  }
+
+  .seventh-section-text {
+    width: 100%;
+    margin: 10% 15%;
+  }
+
+  .footer-section {
+    margin-top: 100px;
+    flex-direction: column;
+  }
+
+  .footer-left-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-right-section {
+    width: 100%;
+  }
+
+  .footer-right-section-text {
+    margin: 10% auto;
+  }
 }
