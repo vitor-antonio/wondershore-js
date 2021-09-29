@@ -346,6 +346,7 @@ body {
     top: 0%;
     object-fit: inherit;
     width: fit-content;
+    max-width: 80%;
   }
 
   .third-section {
@@ -357,6 +358,7 @@ body {
     position: inherit;
     margin: 5%;
     margin: 5% auto;
+    max-width: 80%;
   }
 
   .third-section-text {
@@ -375,12 +377,14 @@ body {
     margin: -85px auto 0px auto;
     top: -10%;
     width: auto;
+    max-width: 80%;
   }
 
   .fourth-image-2 {
     width: auto;
     margin: 85px auto -150px auto;
     top: 5%;
+    max-width: 80%;
   }
 
   .fifth-section {
@@ -404,6 +408,7 @@ body {
     top: 0%;
     margin: -85px auto 0px auto;
     width: auto;
+    max-width: 80%;
   }
 
   .sixth-image-1 {
@@ -411,6 +416,7 @@ body {
     margin: 85px auto -150px auto;
     width: auto;
     bottom: 0%;
+    max-width: 80%;
   }
 
   .seventh-section {
