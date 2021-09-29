@@ -232,12 +232,15 @@ body {
   text-align: center;
 }
 
-.footer-right-section-text > p {
+.footer-right-section-text > a {
   margin-block-start: 0.5rem;
   margin-block-end: 0.5rem;
   font-size: 20px;
   line-height: 207.5%;
   font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .footer-right-section-img > span {
