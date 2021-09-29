@@ -310,8 +310,7 @@ body {
   }
 }
 
-@media screen and (max-width: 815px) {
-
+@media screen and (max-width: 800px) {
   .app-logo {
     padding: 5%;
     position: inherit;
@@ -341,11 +340,12 @@ body {
   }
 
   .second-image {
-    margin: 5%;
+    margin: 5% auto;
     position: inherit;
     left: 0%;
     top: 0%;
     object-fit: inherit;
+    width: fit-content;
   }
 
   .third-section {
@@ -356,6 +356,7 @@ body {
   .third-image {
     position: inherit;
     margin: 5%;
+    margin: 5% auto;
   }
 
   .third-section-text {
@@ -366,17 +367,19 @@ body {
   .fourth-section {
     flex-direction: column;
     width: 100%;
+    height: auto;
   }
 
   .fourth-image-1 {
     left: 0%;
-    margin: auto auto;
+    margin: -85px auto 0px auto;
     top: -10%;
+    width: auto;
   }
 
   .fourth-image-2 {
-    width: 70%;
-    margin: auto auto;
+    width: auto;
+    margin: 85px auto -150px auto;
     top: 5%;
   }
 
@@ -399,14 +402,14 @@ body {
   .sixth-image-2 {
     left: 0%;
     top: 0%;
-    margin: 5% auto;
-    width: 85%;
+    margin: -85px auto 0px auto;
+    width: auto;
   }
 
   .sixth-image-1 {
     left: 0%;
-    margin: 5% auto;
-    width: 85%;
+    margin: 85px auto -150px auto;
+    width: auto;
     bottom: 0%;
   }
 
