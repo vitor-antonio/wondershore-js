@@ -10,33 +10,40 @@ var altLanguages = {
   },
 };
 
-const selectElement = document.getElementById("languages-dropdown");
-console.log(selectElement);
+const buttons = document.querySelectorAll("[flag-button]");
 
-function onLoadPage() {
-  if (window.location.hash) {
-    if (window.location.hash === "#pl") {
-      selectElement.value = "pl";
-    } else if (window.location.hash === "#en") {
-      selectElement.value = "en";
-    }
-  }
-}
-
-window.onload = onLoadPage;
-
-selectElement?.addEventListener("change", (event) => {
-  window.location.hash = event.target.value;
-  location.reload(true);
+buttons.forEach(element => {
+  element.addEventListener("click", (event) => {
+    const language = event.target.id.replace('lang-', '');
+    window.location.hash = language;
+    location.reload(true);
+  })
 });
 
+//const selectElement = document.getElementById("languages-dropdown");
+
+// function onLoadPage() {
+//   if (window.location.hash) {
+//     if (window.location.hash === "#pl") {
+//       selectElement.value = "pl";
+//     } else if (window.location.hash === "#en") {
+//       selectElement.value = "en";
+//     }
+//   }
+// }
+
+// window.onload = onLoadPage;
+
+// selectElement?.addEventListener("change", (event) => {
+//   window.location.hash = event.target.value;
+//   location.reload(true);
+// });
+
 var elementsToTranslate = document.querySelectorAll("[translated-text]");
-console.log(elementsToTranslate);
 var enHash = "#en";
 var currentHash = window.location.hash;
 if (window.location.hash && currentHash === enHash) {
   elementsToTranslate.forEach(function (element) {
-    console.log(element.id);
     element.textContent = altLanguages["en"][element.id];
   });
 }

@@ -26,6 +26,20 @@ body {
   line-height: 15.47px;
 }
 
+.flag-container {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+}
+
+.flag-container img {
+  height: 18px;
+  padding: 10px;
+  width: 32px;
+  cursor: pointer;
+}
+
 .first-section {
   margin: 0px 80px;
   background-image: url("./assets/01.png");
