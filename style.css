@@ -24,6 +24,7 @@ body {
   margin-left: auto;
   font-size: 14px;
   line-height: 15.47px;
+  cursor: pointer;
 }
 
 .flag-container {
