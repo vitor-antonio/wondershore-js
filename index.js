@@ -18,7 +18,7 @@ var altLanguages = {
   en: {
     firstText: "CONTACT",
     secondText:
-      "is the brand whose mission is to build customer’s awareness by providing the highest quality products mainly from Poland.  These are the Polish manufacturers, designers, and creators who are the leaders standing out in Europe when it comes to offering the highest quality designs of functional and decorative materials. ",
+      "is the brand whose mission is to build customer’s awareness by providing the highest quality products mainly from Poland.  These are the Polish manufacturers, designers, and creators who are the leaders standing out in Europe when it comes to offering the highest quality designs of functional and decorative materials.",
     thirdText:
       "Our platform operating on the Scandinavian market is not only the online store, but also a source of information and inspiration about a design and an interior arrangement.",
     fourthText:
@@ -77,7 +77,8 @@ var enHash = "#en";
 var currentHash = window.location.hash;
 if (window.location.hash && currentHash === enHash) {
   elementsToTranslate.forEach(function (element) {
-    element.textContent = altLanguages["en"][element.id];
+    // element.textContent = altLanguages["en"][element.id];
+    element.innerHTML = altLanguages["en"][element.id];
   });
 }
 
